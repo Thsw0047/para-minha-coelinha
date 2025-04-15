@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha princesa💘</title>
+    <link rel="stylesheet" href="pag2.css">
+</head>
+<body>
+
+    <!-- Background principal -->
+    <div class="background-principal">
+           <h1>💌 Um recado do meu coração💖</h1>
+           <h1 id="contador">Estamos juntos há 0 dias, 0 horas, 0 minutos e 0 segundos.</h1>
+        </div>
+
+    </div>
+
+    <!-- Seção inicial (Imagem e Texto) -->
+    <section class="section-inicial">
+        <div class="carousel">
+            <div class="slides">
+                <img src="img/foto1.jpeg" alt="Foto 1">
+                <img src="img/foto2.jpeg" alt="Foto 2">
+                <img src="img/foto3.jpeg" alt="Foto 3">
+                <img src="img/foto4.jpeg" alt="Foto 4">
+                <img src="img/img5.jpeg" alt="Foto 5">
+            </div>
+        </div>
+
+        <div class="texto">
+            <h2>Nossa historia juntos 💞 </h2>
+            <p>Desde o dia em que voltamos a conversar, meu coração automaticamente já tinha se tornado seu. Dali em diante, eu já sabia que ficaria loucamente apaixonado por você e que seria a pessoa mais sortuda do mundo por você sentir o mesmo que eu sentia. <br>
+
+                Os dias foram passando, e não parávamos de conversar por nada, todos os dias. Lembro que a gente conversava muito pelo WhatsApp e um pouco menos pessoalmente kkkk, porque ainda tínhamos vergonha. Depois de algumas semanas conversando todos os dias, eu finalmente tomei coragem para te pedir em namoro.<br>
+                
+                Eu sei que o pedido foi bem ruim... sem nenhum chocolatinho, cartinha, presente, aliança, nem nada... e me arrependo um pouquinho de ter feito isso assim. Mas deu tudo certo — você aceitou namorar comigo mesmo o pedido sendo daquele jeito.<br>
+                
+                Também lembro que, no início do nosso relacionamento, tinham dias em que você queria passar o intervalo com suas amigas. Eu deixava, mas ficava meio tristinho... porque você sabe que eu sempre quis ficar com você o tempo todo, toda hora, todo dia kkkk.<br>
+                
+                Depois de alguns dias de relacionamento, fomos pegando mais intimidade um com o outro e começamos a passar todos os intervalos juntos. Isso significou muito pra mim e me deixou muito feliz.<br>
+                
+                Depois de mais ou menos um mês de namoro, já tínhamos a absoluta certeza de que éramos feitos exatamente um para o outro. Até que, um dia, começamos a conversar sobre comprar uma aliança de namoro pra gente e começamos a pesquisar.<br>
+                
+                Foram dois dias de pesquisa, procurando sites confiáveis, preços acessíveis e, principalmente, o par de alianças perfeito. E conseguimos encontrar um que mais chamou nossa atenção, em um site chamado Cellect Joias.<br>
+                
+                Nesse site, havia alianças lindas, mas eu queria que você fosse a encarregada de escolher qual seria a nossa aliança de namoro. Pedi pra você não olhar nem ligar muito para o preço delas. Até que uma das alianças desse site te conquistou instantaneamente, principalmente por conta do anel solitário, que tinha uma pedra em formato de coração e era rodeado de pedrinhas brilhantes.<br>
+                
+                Eu também achei esse par de alianças extremamente incrível e decidi comprar. Não queria que você gastasse nem um centavo nelas, então fiz questão de pagar os 400 reais sozinho.
+                
+                
+
+</p>
+        </div>
+    </section>
+
+    <!-- Parallax -->
+    <div class="parallax"></div>
+
+    <!-- Seção final -->
+    <section class="section-final">
+        <h2>Para Sempre Nós</h2>
+        <p>E assim, no dia 4 de outubro de 2024, às 22h27, foi exatamente o dia e o horário em que compramos nossas alianças. Ficamos tão felizes por usarmos alianças de namoro no nosso relacionamento que não parávamos de pensar, nem por um segundo, no dia em que elas chegariam. <br>
+
+            Os dias foram passando, e a nossa ansiedade só aumentava kkk. E depois de um mês de muita espera, elas finalmente chegaram. Colocamos as alianças no dedo exatamente no dia 25 de outubro de 2024. <br>
+            
+            Mas, infelizmente, o que você mais tinha gostado na aliança foi justamente o que chegou errado... o anel solitário foi enviado sem a pedrinha em formato de coração que você tanto queria. <br>
+            
+            Mas, no final, deu tudo certo: o anel com a pedrinha em formato de coração chegou, e está aí no seu dedinho agora. <br>
+            
+            Meu amor, eu sou muito, muito grato por ter você ao meu lado, por ter a honra de te chamar de "amor" e também por ter o privilégio de ser chamado de "amor" por você todos os dias. <br>
+            
+            Você é a pessoa mais incrível e espetacular deste mundo, a pessoa mais importante da minha vida. Não consigo imaginar como seria minha vida sem você, até porque você é a minha vida. <br>
+            
+            Eu te amo muito, meu amor. Muito mesmo. <br>
+            
+            Meu amor, este site é só um pequeno presentinho para não deixar nosso aniversário de namoro passar em branco. Mesmo estando longe de você, quis te fazer essa pequena surpresinha. <br>
+            
+            Quero agradecer por você ser essa mulher incrível que é, por me amar de forma tão intensa, por esse carinho que sente por mim, e por muito mais... <br>
+            
+            Feliz aniversário de namoro, minha princesa! Que esses 7 meses sejam só o início dessa história linda que vamos viver juntos. Eu te amo muito. 💖
+</p>
+    </section>
+    </body>
+    <script>
+        const dataInicio = new Date("2024-09-16T00:00:00").getTime();
+
+        function atualizarContador() {
+            const agora = new Date().getTime();
+            const distancia = agora - dataInicio;
+
+            const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+
+            document.getElementById("contador").innerHTML = `Estamos juntos há ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos.`;
+        }
+
+        setInterval(atualizarContador, 1000);
+    </script>
+</html>
+
