@@ -1,7 +1,7 @@
 function verificarSenha() {
     let senha = document.getElementById("senha").value;
     let mensagemErro = document.getElementById("mensagem-erro");
-    if (senha === "nosso amor vence sempre") {  // Escolha a senha que quiser
+    if (senha === "Nosso amor sempre vence") {  // Escolha a senha que quiser
         window.location.href = "pagina2.html";
     } else {
         mensagemErro.style.display = "block";  // Torna a mensagem visível
